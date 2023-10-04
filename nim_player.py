@@ -101,6 +101,19 @@ class NimPlayer():
     
 nim_player = NimPlayer()
 
+print(nim_player.play([1, 3, 5, 7]))
+
+
+print(nim_player.play([1, 3, 5, 0]))
+
+
+print(nim_player.play([1, 3, 0, 0]))
+
+
+print(nim_player.play([0, 0, 4, 4]))
+
+#printing out a few moves that the nim player would make given a game state
+
 
 
 
